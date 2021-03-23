@@ -10,11 +10,11 @@
     <form action="/abc" method="POST">
     <div class="username" >
 <label for="username">姓名</label>
-<input type="text" name="username" placeholder="用户名">
+<input id="username"type="text" name="username" placeholder="用户名">
     </div>
 <div class="password">
 <label for="password">密码</label>
-<input type="password" value="111111111">
+<input id="password"type="password" value="111111111">
 </div>
 <div class="xingbie">
 <label for="xingbie">性别</label>
@@ -41,8 +41,8 @@ ddd
 <div class="mycar">
 <label for="mycar">我的car:</label>
 <select name="mycar" id="mycar">
-    <option value="sabo">萨博</option>
     <option value="lanbojini">兰博基尼</option>
+    <option value="sabo" selected>萨博</option>
     <option value="baoshijie">保时捷</option>
 </select>
     <button>提交</button>
